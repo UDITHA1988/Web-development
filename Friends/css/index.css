@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.name {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(8, 8, 194);
+}
+
+.details {
+    color: red;
+    text-align: center;
+}
+
+h5 {
+    color: red
+}
+
+.field {
+
+    width: 300px;
+    min-height: 380px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: rgb(233, 249, 255);
+}
+
+.form {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-color: blue;
+    width: 80%;
+
+}
+
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 80px;
+    background-color: lightblue;
+    color: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: blue;
+    cursor: pointer;
+}
