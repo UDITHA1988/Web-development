@@ -1,0 +1,99 @@
+.body {
+    background-color: black;
+}
+
+nav {
+    margin-left: 410px;
+}
+
+.li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 40px 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.a1 {
+    text-decoration: underline;
+    font-size: 25px;
+    color: rgb(154, 154, 252);
+}
+
+.p1 {
+    font-size: 25px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+div {
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.Education {
+    color: rgb(154, 154, 252);
+}
+
+.li2 {
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+    list-style-type: circle;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 1000px) {
+
+    nav {
+        margin-left: 0px;
+    }
+
+    .li {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+        list-style-type: none;
+        display: inline-block;
+        margin: 0px 40px 0 0;
+    }
+
+    div {
+        margin-left: 40px;
+    }
+
+    .a1 {
+        text-decoration: underline;
+        font-size: 20px;
+        color: rgb(154, 154, 252);
+    }
+
+    .p1 {
+        font-size: 20px;
+        color: white;
+    }
+
+    p {
+        font-size: 15px;
+        color: white;
+    }
+
+    .li2 {
+        font-size: 15px;
+        color: white;
+        margin-left: 100px;
+        list-style-type: circle;
+    }
+
+}
