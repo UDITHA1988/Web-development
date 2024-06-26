@@ -7,7 +7,7 @@ This repository includes web development projects built by my self.
 
 3. Friends
       A full stack social media application similar to facebook. Usesrs can create accounts, upload and share posts and search and add 
-      friends. Front end is built with HTML, CSS and JavaScript and backend with PHP. MySQL database is used to store data. It has form     
+      friends. Front end is built with HTML, CSS and JavaScript and backend with PHP. MySQL database is used to store data. It has form 
       validation feature and a minimum number of tables are used to store data for efficiency.
 
 4. Portfolio
